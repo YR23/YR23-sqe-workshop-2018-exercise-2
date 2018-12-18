@@ -7,11 +7,10 @@ node_js:
 cache: npm
 
 script:
-  - npm install
   - npm run test
 
 notifications:
   email:
     recipients:
-      - avdayan@bgu.ac.il
-    on_failure: always
+      - rotemyar@bgu.ac.il
+on_failure: always
